@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'helvetica neue';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 html,
@@ -78,7 +78,8 @@ body {
     margin-top: 0.5vw;
     font-size: 1vw;
 }
-#herofooter{
+
+#herofooter {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -86,19 +87,22 @@ body {
     width: 100%;
     position: absolute;
     bottom: 3%;
-    
+
 }
-#herofooter a{
+
+#herofooter a {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
 
 }
+
 #herofooter #iconset {
-    display:  flex;
+    display: flex;
     gap: 5px;
 }
-#herofooter .circle{
+
+#herofooter .circle {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,3 +111,41 @@ body {
     border-radius: 50%;
     background-color: grey;
 }
+
+#second {
+    width: 100%;
+    
+    color: #fff;
+    padding-right: 10vw;
+    padding-top: 200px;
+    background-color: black;
+
+}
+
+.elem {
+    width: 100%;
+    padding: 4vw 3vw;
+    padding-right:0;
+    border-top: 1px solid #888;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.elem h1 {
+    text-transform: uppercase;
+    font-size: 7.6vw;
+    opacity: 0.75;
+}
+
+.elmlast {
+    border-bottom: 1px solid #888;
+}
+.elem img{
+    height: 95%;
+    display: none;
+    z-index: 3;
+    position: absolute;
+}
+
